@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* SpaceX Mission Explorer Design System - Space Tech Aesthetic */
+
+@layer base {
+  :root {
+    /* Space-themed color palette */
+    --background: 220 27% 4%;
+    --foreground: 210 40% 98%;
+
+    --card: 224 27% 8%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 224 27% 8%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 220 27% 4%;
+
+    --secondary: 224 27% 12%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 224 27% 12%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 217 91% 60%;
+    --accent-foreground: 220 27% 4%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --success: 142 69% 58%;
+    --success-foreground: 220 27% 4%;
+
+    --warning: 45 93% 58%;
+    --warning-foreground: 220 27% 4%;
+
+    --border: 224 27% 16%;
+    --input: 224 27% 16%;
+    --ring: 217 91% 60%;
+
+    --radius: 0.75rem;
+
+    /* Space gradients */
+    --gradient-cosmic: linear-gradient(135deg, hsl(217 91% 60% / 0.1), hsl(269 100% 40% / 0.1));
+    --gradient-stellar: linear-gradient(180deg, hsl(220 27% 4%), hsl(224 27% 8%));
+    --gradient-primary: linear-gradient(135deg, hsl(217 91% 60%), hsl(269 100% 50%));
+    
+    /* Shadows with cosmic glow */
+    --shadow-cosmic: 0 0 30px hsl(217 91% 60% / 0.3);
+    --shadow-card: 0 4px 20px hsl(220 27% 4% / 0.5);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  }
+
+  /* Light mode would be available but we prefer dark space theme */
+  .light {
+    /* Light theme available but we default to dark space theme */
+    --background: 210 40% 98%;
+    --foreground: 220 27% 4%;
+    --card: 0 0% 100%;
+    --card-foreground: 220 27% 4%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    background: var(--gradient-stellar);
+    min-height: 100vh;
+  }
+
+  /* Custom scrollbar for space theme */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-muted;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary/80;
+  }
+}
+
+@layer components {
+  .cosmic-glow {
+    box-shadow: var(--shadow-cosmic);
+  }
+
+  .card-glow {
+    box-shadow: var(--shadow-card);
+  }
+
+  .gradient-cosmic {
+    background: var(--gradient-cosmic);
+  }
+
+  .gradient-primary {
+    background: var(--gradient-primary);
+  }
+
+  .transition-smooth {
+    transition: var(--transition-smooth);
+  }
+
+  .transition-bounce {
+    transition: var(--transition-bounce);
+  }
+}
