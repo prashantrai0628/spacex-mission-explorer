@@ -23,12 +23,12 @@ A modern, elegant React application for exploring SpaceX launches with real-time
 
 ### Advanced Search & Filtering
 <div align="center" style="margin-bottom: 20px;">
-  <img src="./.github/assets/search-filters.png" alt="Search and Filters" width="100%" height="300px" style="object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  <img src="./.github/assets/search-filters.png" alt="Search and Filters" width="100%" height="400px" style="object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
 </div>
 
 ### Smart Pagination
 <div align="center" style="margin-bottom: 20px;">
-  <img src="./.github/assets/pagination.png" alt="Pagination" width="100%" height="200px" style="object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+  <img src="./.github/assets/pagination.png" alt="Pagination" width="100%" height="300px" style="object-fit: cover; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
 </div>
 
 ### Responsive Mobile Design
