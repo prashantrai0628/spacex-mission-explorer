@@ -1,8 +1,34 @@
 # 🚀 SourceOps - SpaceX Mission Explorer
 
-![SourceOps Preview](/.github/assets/preview.png)
+<div align="center">
+  <img src="./.github/assets/hero.png" alt="SpaceX Mission Explorer Hero" width="100%" />
+</div>
 
 A modern, elegant React application for exploring SpaceX launches with real-time updates, favorites system, and a beautiful space-themed UI. Built with performance and user experience in mind.
+
+## 📸 Screenshots
+
+### Light & Dark Mode
+<div align="center">
+  <img src="./.github/assets/light-mode.png" alt="Light Mode" width="45%" />
+  <img src="./.github/assets/dark-mode.png" alt="Dark Mode" width="45%" />
+</div>
+
+### Mission Details & Favorites
+<div align="center">
+  <img src="./.github/assets/mission-details.png" alt="Mission Details" width="45%" />
+  <img src="./.github/assets/favorites.png" alt="Favorites" width="45%" />
+</div>
+
+### Search & Filters
+<div align="center">
+  <img src="./.github/assets/search-filters.png" alt="Search and Filters" width="100%" />
+</div>
+
+### Responsive Design
+<div align="center">
+  <img src="./.github/assets/mobile-view.png" alt="Mobile View" width="30%" />
+</div>
 
 ## ✨ Key Features
 
